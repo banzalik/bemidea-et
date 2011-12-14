@@ -26,15 +26,13 @@
 ---------------------------
 Необходимо убедиться, что пути к node.js и bem правильные:
 
-```which node
+```which node```
 
-/usr/local/bin/node
-```
+```/usr/local/bin/node```
 
-```which bem
+```which bem```
 
-/usr/local/bin/bem
-```
+```/usr/local/bin/bem```
 
 Если пути совпадают с теми, что выше, то достаточно скопировать файл BEM.xml в директории:
 
