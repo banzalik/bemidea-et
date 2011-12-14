@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolSet name="BEM">
+  <tool name="Create elem" description="Создание элемента блока" showInMainMenu="false" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/node" />
+      <option name="PARAMETERS" value="/usr/local/bin/bem create elem $Prompt$ -b $FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Create block" description="Создание блока" showInMainMenu="false" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/node" />
+      <option name="PARAMETERS" value="/usr/local/bin/bem create block $Prompt$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Create mod" description="Создание модификатора блока|эллемента" showInMainMenu="false" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/node" />
+      <option name="PARAMETERS" value="/usr/local/bin/bem create mod $Prompt$ -b $FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Add tech" description="Добавить новую технологию для уже существующего блока" showInMainMenu="false" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/node" />
+      <option name="PARAMETERS" value="/usr/local/bin/bem create block $FileName$ -T $Prompt$ " />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Create level" description="Создание уровня переопределения в текущей директории" showInMainMenu="false" showInEditor="true" showInProject="true" showInSearchPopup="false" disabled="false" useConsole="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/node" />
+      <option name="PARAMETERS" value="/usr/local/bin/bem create level $Prompt$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
+
