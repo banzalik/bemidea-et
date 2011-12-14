@@ -34,7 +34,7 @@
 
 Должно быть: ```/usr/local/bin/bem```
 
-Если пути совпадают с теми, что выше, то достаточно скопировать файл BEM.xml в директории:
+Если пути совпадают с теми, что выше, то достаточно скопировать файл [BEM.xml](https://raw.github.com/banzalik/bemidea-et/master/BEM.xml)  в директории:
 
  * для WebStorm\PhpStorm: ~/Library/Preferences/WebIDE10/tools/
  * для IntelliJ IDEA: ~/Library/Preferences/IntelliJIdea10/tools/
