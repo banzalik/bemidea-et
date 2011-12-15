@@ -11,6 +11,7 @@
 Как выглядит:
 ---------------------------
 ![Как выглядит](https://github.com/banzalik/bemidea-et/raw/master/screen.png)
+![Как выглядит](https://github.com/banzalik/bemidea-et/raw/master/anime.gif)
 
 Использование:
 ---------------------------
